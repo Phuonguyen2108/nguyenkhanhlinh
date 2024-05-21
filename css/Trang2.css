@@ -1,0 +1,62 @@
+@charset "utf-8";SSS
+/* CSS Document */
+.tranvien{
+	width: 100%;
+}
+.background1{
+	width: 100%;
+	height: 500px;
+	background: url( "../img/bg2.png");
+	margin: 40px 0px;
+	padding: 40px;
+}
+h3{
+	font-family: "Comfortaa", sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.background1 a{
+	text-decoration: 2px underline;
+	text-decoration-color: #A4A4A4;
+	
+}
+.background1 h3:hover{
+	text-decoration:2px underline;
+	text-decoration-color: #8E0306;
+}
+.box4{
+	height: 170px;
+	width: 25%;
+	padding: 20px;
+}
+.noidung{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #FFFFFF;
+	padding: 40px;
+}
+.noidung p{
+	color: #8E0306;
+	font-weight: bold;
+	text-align:center;
+	font-family: "Comfortaa", sans-serif;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.noidung a{
+	font-family: "Comfortaa", sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color:#7D7D7D;
+	margin: 30px 25px;
+	padding: 4px;
+}
+.noidung a:hover{
+	font-family: "Comfortaa", sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color:#8E0306;
+	margin: 20px 20px;
+	padding: 4px;
+}

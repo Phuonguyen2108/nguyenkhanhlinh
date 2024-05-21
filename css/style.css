@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	width: 1000px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	width: 200px;
+	height: 60px;
+	margin-top: 25px;
+}
+.navi{
+	width: 400px;
+	height:60px;
+	padding: 30px;
+	
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.row li{
+	list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 14px;
+}
+.navi a{
+	text-decoration: none;
+	color: black;
+	
+}
+a:hover{
+	color:#730001;
+}
+.timkiem{
+	justify-content: space-between;
+	height: 60px;
+	width: 200px;
+	margin-top: 20px;
+}
+.cu{
+	margin: 0px 12px;
+}
+.box{
+	width: 100%;
+}
+.newarrivals{
+	margin: 50px;
+	text-align: center;
+}
+p3{
+	font-family: "Comfortaa", sans-serif;
+	font-size: 20px;
+	color: #000000;
+}
+p3:hover {
+  font-weight: 900;
+  letter-spacing: 1px;
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+	border: 2px solid #730001;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 8px;
+	
+}
+.newarrivals a{
+	text-decoration: none;
+}
+p4{
+	font-family: "Comfortaa", sans-serif;
+}
+p5{
+	font-family: "Comfortaa", sans-serif;
+}
+p5:hover{
+	color: #8E0306;
+	cursor: pointer;
+}
+.boxhinh img:hover{
+	opacity: 0;
+	transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+	
+}
+.boxhinh{
+	width: 33.3%;
+	height: 350px;
+	padding: 20px;
+	margin: 15px 0px;
+}
+.box3{
+	border: 2px solid #8E0306; 
+	padding: 10px;
+}
+.hinh{
+	width: 100%;
+	height: 300px;
+}
+.hinhtren{
+	padding: 10px;
+	will-change:transform;
+	top: 0px; left:0px;
+	position: absolute;
+}
+.hinhduoi{
+	padding: 10px;
+	position: relative;
+}
+.chinh{
+	margin: 20px 0px;
+}

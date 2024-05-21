@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.background2{
+	width: 100%;
+	background:  url( "../img/Shop-Banner2.png");
+	height: 500px;
+	background-size: cover;
+	padding: 30px;
+}
+.background2 h3{
+	color:#626262;
+	margin-bottom: 20px;
+}
+.form{
+	border: 1px solid  #CACACA;
+	box-shadow: 5px 5px 7px gray;
+	height: 400px;
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+}
+.dien{
+	width: 500px;
+	height: 40px;
+	padding: 10px;
+	margin: 8px 28px;
+}
+input:hover{
+	 background: #FFE6D7;
+	border: 0.5px inset #CECECE;
+}
+.ghichu{
+	width: 500px;
+	height:120px;
+	padding: 10px;
+	margin: 8px 28px;
+}
+textarea:hover{
+	 background: #FFE6D7;
+	border: 0.5px inset #CECECE;
+}
+.submit{
+	width: 80px;
+	height: 30px;
+	margin: 8px 28px;
+	background: #E4A4A0;
+	border-style: none;
+	box-shadow: 2px 2px 5px gray;
+}
